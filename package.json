@@ -1,0 +1,28 @@
+{
+  "name": "ari-magic",
+  "version": "0.0.1",
+  "description": "Tool for working with Asterisk ARI",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Churikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike0712/ari-listener/issues"
+  },
+  "homepage": "https://github.com/Mike0712/ari-listener#readme",
+  "engines": {
+    "node": ">=16.0"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "ws": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/ws": "^8.5.5",
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
+  }
+}

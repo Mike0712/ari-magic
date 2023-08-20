@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "./types",
+  },
+  "include": ["./lib/*.d.ts", "./lib/*.ts", "./types/*.d.ts", "./types/*.ts"]
+}
