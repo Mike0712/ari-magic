@@ -12,7 +12,7 @@ export declare interface LiveRecording {
 	name: string; // Base name for the recording
 	format: string; // Recording format (wav, gsm, etc.)
 	target_uri: string; // URI for the channel or bridge being recorded
-	state: 'queued' | 'recording' | 'paused' | 'done' | 'failed' | 'canceled'; // undefined
+	state: 'queued' | 'recording' | 'paused' | 'done' | 'failed' | 'canceled';
 	duration?: number; // Duration in seconds of the recording
 	talking_duration?: number; // Duration of talking, in seconds, detected in the recording. This is only available if the recording was initiated with a non-zero maxSilenceSeconds.
 	silence_duration?: number; // Duration of silence, in seconds, detected in the recording. This is only available if the recording was initiated with a non-zero maxSilenceSeconds.
